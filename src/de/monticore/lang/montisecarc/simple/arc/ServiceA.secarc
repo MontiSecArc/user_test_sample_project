@@ -1,0 +1,10 @@
+package de.monticore.lang.montisecarc.simple.arc;
+
+import de.monticore.lang.montisecarc.simple.msg.*;
+
+component ServiceA {
+
+    // Define ingoing port
+    port in DataPackage inDataPackage;
+}
+

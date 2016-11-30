@@ -1,0 +1,15 @@
+package de.monticore.lang.montisecarc.simple.arc;
+
+// Enclosing Component Environment
+component ServiceEnvironment {
+
+    // Create instance of service A
+    ServiceA serviceA;
+
+    // Create instance of service B
+    ServiceB serviceB;
+
+    // Connect the defined ports
+    connect serviceB.outDataPackage -> serviceA.inDataPackage;
+}
+
