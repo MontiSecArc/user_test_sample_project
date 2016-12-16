@@ -2,7 +2,6 @@ package de.monticore.lang.montisecarc.simple.secarc;
 
 component ServiceB {
 
-    // Define outgoing port
     port out DataPackage outDataPackage;
 }
 
