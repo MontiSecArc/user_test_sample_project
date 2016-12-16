@@ -4,13 +4,10 @@ import de.monticore.lang.montisecarc.simple.msg.*;
 
 component ServiceA {
 
-    // Access to the service needs to be checked by identities
     accesscontrol on;
 
-    // Define that inDataPackage port can only be access by privilegedUser
     access inDataPackage(privilegedUser);
 
-    // Define ingoing port
     port in DataPackage inDataPackage;
 }
 
