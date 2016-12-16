@@ -3,24 +3,15 @@ package de.monticore.lang.montisecarc.simple.secarc;
 // Enclosing Component Environment
 component ServiceEnvironment {
 
-    // The environment is untrusted
     trustlevel -1 "Untrusted public network";
 
-    // Create instance of service A
     ServiceA serviceA;
 
-    // Create instance of service B
     ServiceB serviceB;
 
-    // Service B is strongly authenticated at service A
     identity strong serviceB -> serviceA;
 
-    // Connect the defined ports
-    // Uses default connection protocol but requires it to be encrypted
     connect encrypted serviceB.outDataPackage -> serviceA.inDataPackage;
 
-    // Connect two ports
-    // Define the used protocol for the connection as HTTPS
-    // Strong Authentication is required
     connect strong serviceB.outDataPackage -[HTTPS]-> serviceA.inDataPackage;
 }
