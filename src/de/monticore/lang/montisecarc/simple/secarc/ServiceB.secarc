@@ -1,6 +1,10 @@
 package de.monticore.lang.montisecarc.simple.secarc;
 
+import de.monticore.lang.montisecarc.simple.msg.DataPackage;
+
 component ServiceB {
+
+    access outDataPackage(privilegedUser);
 
     port out DataPackage outDataPackage;
 }

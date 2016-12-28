@@ -1,9 +1,13 @@
 package de.monticore.lang.montisecarc.simple.secarc;
 
+import de.monticore.lang.montisecarc.simple.msg.HTTPS;
+
 // Enclosing Component Environment
 component ServiceEnvironment {
 
     trustlevel -1 "Untrusted public network";
+
+    accesscontrol on;
 
     ServiceA serviceA;
 

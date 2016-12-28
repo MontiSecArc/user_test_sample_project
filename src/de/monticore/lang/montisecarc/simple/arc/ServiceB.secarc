@@ -1,5 +1,7 @@
 package de.monticore.lang.montisecarc.simple.arc;
 
+import de.monticore.lang.montisecarc.simple.msg.DataPackage;
+
 component ServiceB {
 
     // Define outgoing port
