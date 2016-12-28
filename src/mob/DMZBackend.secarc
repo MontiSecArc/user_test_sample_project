@@ -1,0 +1,15 @@
+package mob;
+
+import de.monticore.lang.montisecarc.simple.msg.DataPackage;
+
+component DMZBackend {
+
+    trustlevel 3 "DMZ network";
+    accesscontrol on;
+
+    access inDataPackage(sales);
+
+    port in DataPackage inDataPackage;
+    port out DataPackage outDataPackage;
+}
+

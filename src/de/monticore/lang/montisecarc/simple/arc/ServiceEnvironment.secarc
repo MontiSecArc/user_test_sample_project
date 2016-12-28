@@ -12,4 +12,3 @@ component ServiceEnvironment {
     // Connect the defined ports
     connect serviceB.outDataPackage -> serviceA.inDataPackage;
 }
-

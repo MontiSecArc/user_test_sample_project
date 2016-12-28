@@ -1,0 +1,13 @@
+package mob;
+
+import de.monticore.lang.montisecarc.simple.msg.DataPackage;
+
+component PublicBackend {
+
+    trustlevel -1 "Cloud Service";
+    accesscontrol off;
+
+    port in DataPackage inDataPackage;
+    port out DataPackage outDataPackage;
+}
+

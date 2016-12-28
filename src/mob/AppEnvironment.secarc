@@ -1,0 +1,20 @@
+package mob;
+
+import de.monticore.lang.montisecarc.simple.msg.DataPackage;
+
+component AppEnvironment {
+
+    access sales;
+
+    port out DataPackage outDataPackage;
+    port in DataPackage inDataPackage;
+
+    DMZBackend dmzBackend;
+    PublicBackend publicBackend;
+
+    connect encrypted outDataPackage -> publicBackend.inDataPackage;
+    connect encrypted strong outDataPackage -> dmzBackend.inDataPackage;
+    connect encrypted publicBackend.outDataPackage -> inDataPackage;
+    connect encrypted strong dmzBackend.outDataPackage -> inDataPackage;
+}
+
