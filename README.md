@@ -38,11 +38,3 @@ Your company was approached by a new client to develop a new mobile app for iOS 
 The client has an internal authentication service that runs on location and has to be used for authenticating the sales personal. The other service needed to achieve the functionality can be deployed anywhere. 
 
 You are approached as a software architect to create a secure architecture description that represents the requirements to check against the clients security policy and present a starting point for further developments.
-
-## Evaluation
-- Discussion of the results of the scenario
-- Are there suggestions and improvements
-- Which concepts seem "natural" which are difficult
-
-## Results
-1. [SLau](early-access-test-slau)
