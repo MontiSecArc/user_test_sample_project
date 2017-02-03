@@ -1,0 +1,13 @@
+package de.monticore.lang.montisecarc.simple.ama;
+
+component MobileSalesman {
+
+    trustlevel 1 "Own employees";
+
+    accesscontrol off;
+
+    port in SalesmanPackage inPortSalesman;
+    port in CostumerPackage inPortCostumer;
+
+}
+

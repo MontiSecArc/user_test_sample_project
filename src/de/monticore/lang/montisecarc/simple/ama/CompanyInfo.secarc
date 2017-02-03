@@ -1,0 +1,11 @@
+package de.monticore.lang.montisecarc.simple.ama;
+
+component CompanyInfo {
+
+    trustlevel 2 "Amazon Cloud";
+
+    accesscontrol off;
+
+    port out CostumerPackage outPort;
+}
+

@@ -1,0 +1,26 @@
+package de.monticore.lang.montisecarc.simple.ama;
+
+import de.monticore.lang.montisecarc.simple.msg.HTTPS;
+
+component SystemEnviroment {
+
+    accesscontrol off;
+
+    SalesmanInfo salesmanInfo;
+    CompanyInfo companyInfo;
+
+    LDAP ldap;
+
+    Mobile mobileCostumer;
+    MobileSalesman mobileSalesman;
+
+
+    identity weak ldap -> salesmanInfo;
+    identity weak mobileSalesman -> ldap;
+
+    connect encrypted salesmanInfo.outPort -> mobileSalesman.inPortSalesman;
+    connect companyInfo.outPort -> mobileSalesman.inPortCostumer;
+
+    connect companyInfo.outPort -> mobileCostumer.inPort;
+}
+

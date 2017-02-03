@@ -1,0 +1,11 @@
+package de.monticore.lang.montisecarc.simple.ama;
+
+component Mobile {
+
+    trustlevel 0 "Eigene App";
+
+    accesscontrol off;
+
+    port in CostumerPackage inPort;
+}
+

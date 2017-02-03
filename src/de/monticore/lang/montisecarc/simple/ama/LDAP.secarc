@@ -1,0 +1,10 @@
+package de.monticore.lang.montisecarc.simple.ama;
+
+component LDAP {
+
+    trustlevel 10;
+
+    accesscontrol on;
+
+}
+

@@ -1,0 +1,11 @@
+package de.monticore.lang.montisecarc.simple.ama;
+
+component SalesmanInfo {
+
+    trustlevel 6 "Own Company";
+
+    access outPort(salesmanPolicy);
+
+    port out SalesmanPackage outPort;
+}
+
