@@ -17,5 +17,5 @@ component ServiceEnvironment {
 
     connect encrypted serviceB.outDataPackage -> serviceA.inDataPackage;
 
-    connect strong serviceB.outDataPackage -[HTTPS]-> serviceA.inDataPackage;
+    connect serviceB.outDataPackage -[HTTPS]-> serviceA.inDataPackage;
 }
