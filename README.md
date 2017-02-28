@@ -13,7 +13,7 @@ Now select "Install plugin from disk..." and add the [MontiSecArc Language Plugi
 ## Introduction
 - Close all currently opened projects in IntelliJ IDEA. 
 - Click on "Check out from Version Control" and select Git. 
-- Set https://git.rwth-aachen.de/ma_buning/user_test_sample_project.git for Git Repository URL and choose a parent directory.
+- Set https://github.com/MontiSecArc/user_test_sample_project.git for Git Repository URL and choose a parent directory.
 
 ### Basic MontiArc concepts 
 Go to src/de/monticore/lang/montisecarc/simple/arc to find example components
