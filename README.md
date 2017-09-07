@@ -5,10 +5,10 @@ This user test will be conducted to provide insight into the usability of MontiS
 As the product is deeply integrated into the IntelliJ IDEA the user needs to install the latest version of the [IDE](https://www.jetbrains.com/idea/download/). The free Community Edition is sufficient. The Plugins are tested with Version 2016.x.
 
 If the IDE was not installed before you will be greeted by a welcome dialog.
-![Bildschirmfoto_2016-11-30_um_14.12.31](/uploads/d4e340dce985c550bb087fed7924003b/Bildschirmfoto_2016-11-30_um_14.12.31.png)
+![Bildschirmfoto_2016-11-30_um_14.12.31](/resources/img/Bildschirmfoto_2016-11-30_um_14.12.31.png)
 If the IDE was already installed the last project will be opened and you have to go to the preferences and locate the Plugins section:
-![Bildschirmfoto_2016-11-30_um_14.58.39](/uploads/daf0e1ffff8aef1198c0ad95207b0c36/Bildschirmfoto_2016-11-30_um_14.58.39.png)
-Now select "Install plugin from disk..." and add the [MontiSecArc Language Plugin](http://138.68.65.103:8081/artifactory/intellij_plugins_snapshot_local/de/monticore/lang/montisecarc/plugin/IntelliJ_MSA_Language/0.8.9.SNAPSHOT/IntelliJ_MSA_Language-0.8.9.SNAPSHOT.zip). After that the IDE needs to be restarted.
+![Bildschirmfoto_2016-11-30_um_14.58.39](/resources/img/Bildschirmfoto_2016-11-30_um_14.58.39.png)
+Now select "Install plugin from disk..." and add the [MontiSecArc Language Plugin](https://github.com/MontiSecArc/intellij_msa_language_plugin/releases/latest). After that the IDE needs to be restarted.
 
 ## Introduction
 - Close all currently opened projects in IntelliJ IDEA. 
